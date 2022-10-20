@@ -28,10 +28,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Next.js와 Tailwind CSS로 제작된 랜딩페이지입니다.</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="이 페이지는 Next.js와 Tailwind CSS로 제작되었습니다."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -39,32 +39,25 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="클라우드타입"
+        title="당신이 클라우드타입을 사용해야 하는 이유">
+        세상에서 가장 빠르고 간편한 서비스 배포
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don't forget to add one. Just like this.
+        pretitle="데모 영상"
+        title="클라우드타입으로 배포하기">
+        복잡한 과정없이 손쉽게 배포하는 과정을 영상으로 직접 확인하세요
       </SectionTitle>
       <Video />
       <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        pretitle="고객추천"
+        title="사용자 분들의 생생한 사용 후기">
+        개발자 분들이 직접 말씀해주신 클라우드타입의 장점
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle pretitle="FAQ" title="자주 묻는 질문">
       </SectionTitle>
       <Faq />
       <Cta />
