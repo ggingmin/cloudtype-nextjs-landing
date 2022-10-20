@@ -62,7 +62,6 @@ export default function Home() {
       <Faq />
       <Cta />
       <Footer />
-      <PopupWidget />
     </>
   );
 }

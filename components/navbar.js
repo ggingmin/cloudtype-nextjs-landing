@@ -6,8 +6,6 @@ export default function Navbar() {
   const navigation = [
     "Product",
     "Features",
-    "Pricing",
-    "Company",
     "Blog",
   ];
 
